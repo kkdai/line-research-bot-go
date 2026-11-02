@@ -10,7 +10,7 @@ import (
 
 	"github.com/line/line-bot-sdk-go/v8/linebot/messaging_api"
 
-	"github.com/kkdai/line-research-bot/internal/flex"
+	"github.com/kkdai/line-research-bot-go/internal/flex"
 )
 
 type Client struct {

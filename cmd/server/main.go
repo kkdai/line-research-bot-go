@@ -18,14 +18,14 @@ import (
 	"google.golang.org/api/idtoken"
 	"google.golang.org/genai"
 
-	"github.com/kkdai/line-research-bot/internal/config"
-	"github.com/kkdai/line-research-bot/internal/linebot"
-	"github.com/kkdai/line-research-bot/internal/publisher"
-	"github.com/kkdai/line-research-bot/internal/research"
-	"github.com/kkdai/line-research-bot/internal/server"
-	"github.com/kkdai/line-research-bot/internal/state"
-	"github.com/kkdai/line-research-bot/internal/tasks"
-	"github.com/kkdai/line-research-bot/internal/worker"
+	"github.com/kkdai/line-research-bot-go/internal/config"
+	"github.com/kkdai/line-research-bot-go/internal/linebot"
+	"github.com/kkdai/line-research-bot-go/internal/publisher"
+	"github.com/kkdai/line-research-bot-go/internal/research"
+	"github.com/kkdai/line-research-bot-go/internal/server"
+	"github.com/kkdai/line-research-bot-go/internal/state"
+	"github.com/kkdai/line-research-bot-go/internal/tasks"
+	"github.com/kkdai/line-research-bot-go/internal/worker"
 )
 
 func main() {

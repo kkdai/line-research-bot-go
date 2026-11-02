@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/kkdai/line-research-bot/internal/flex"
+	"github.com/kkdai/line-research-bot-go/internal/flex"
 )
 
 type Query struct {

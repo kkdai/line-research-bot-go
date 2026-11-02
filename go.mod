@@ -1,4 +1,4 @@
-module github.com/kkdai/line-research-bot
+module github.com/kkdai/line-research-bot-go
 
 go 1.27.3
 

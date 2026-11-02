@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kkdai/line-research-bot/internal/intent"
-	"github.com/kkdai/line-research-bot/internal/state"
-	"github.com/kkdai/line-research-bot/internal/tasks"
+	"github.com/kkdai/line-research-bot-go/internal/intent"
+	"github.com/kkdai/line-research-bot-go/internal/state"
+	"github.com/kkdai/line-research-bot-go/internal/tasks"
 )
 
 type Store interface {

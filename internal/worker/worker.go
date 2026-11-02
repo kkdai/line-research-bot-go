@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kkdai/line-research-bot/internal/flex"
-	"github.com/kkdai/line-research-bot/internal/research"
-	"github.com/kkdai/line-research-bot/internal/state"
-	"github.com/kkdai/line-research-bot/internal/tasks"
+	"github.com/kkdai/line-research-bot-go/internal/flex"
+	"github.com/kkdai/line-research-bot-go/internal/research"
+	"github.com/kkdai/line-research-bot-go/internal/state"
+	"github.com/kkdai/line-research-bot-go/internal/tasks"
 )
 
 type Store interface {

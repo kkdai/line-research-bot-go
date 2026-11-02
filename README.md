@@ -7,8 +7,11 @@ with Gemini and publishes a Markdown report as a public HTML page. Subsequent
 messages can deepen the same report — the agent's working memory (plan,
 sources, report) is kept per user and fed back into ADK session state.
 
-> **History:** the first version was Python + the Pre-GA Managed Agents API
-> (sandbox filesystem). It was rewritten in Go on top of ADK — see issue #1.
+> **History:** this is the Go rewrite of
+> [`kkdai/line-research-bot`](https://github.com/kkdai/line-research-bot)
+> (Python + the Pre-GA Managed Agents API with a sandbox filesystem). The
+> migration log is in
+> [kkdai/line-research-bot#1](https://github.com/kkdai/line-research-bot/issues/1).
 
 ---
 
@@ -94,7 +97,7 @@ deploy/                  bucket / queue setup scripts, deploy.sh
 
 ## Quick start (local)
 
-Prerequisites: Go 1.26+, `gcloud auth application-default login`, a GCP
+Prerequisites: Go 1.27+, `gcloud auth application-default login`, a GCP
 project with Vertex AI enabled, and a LINE Messaging API channel.
 
 ```bash
